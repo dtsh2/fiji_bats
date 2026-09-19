@@ -17,7 +17,7 @@ install.packages(c(
 
 Place the analysis script in the same directory as the data, set that directory as your R working directory, and run:
 
-source("Fiji_Bat_Human_analysis(1).R")
+source("Fiji_Bat_Human_analysis.R")
 
 Adjust the script filename above if it has been renamed in the release. Figures are saved as PNG files in the working directory. Model summaries and comparisons are printed to the console; contact-model odds ratios and confidence intervals are exported to logit_contact_harm_OR.csv.
 
