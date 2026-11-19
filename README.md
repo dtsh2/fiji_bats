@@ -49,14 +49,6 @@ The figure script writes five PNGs and five LZW-compressed TIFFs to `RSOS_figure
 
 Bars count survey rows. Age-based panels include the 198 rows with recorded age. Gender-specific panels also require recorded gender. Among eligible rows, missing contact, consumption or education responses appear as “Missing” when present. Each eligible row contributes once per period shown. The current-only gender figure uses the current response once per row.
 
-## Reproduce the conversion from the original CSV
-
-The bundled CSV is ready for analysis. To repeat the conversion from the earlier letter-coded file, run the following in a terminal, supplying the original file as input and an unused filename as output.
-
-```sh
-Rscript reformat_survey.R original_survey.csv Fiji_Bat_Human_data_reformatted.csv
-```
-
 ## Citation
 
 Please cite the dataset using the citation on its Dryad record when reusing the data.
