@@ -1,210 +1,210 @@
 Person ID number,Age,Gender,Education_yrs,Religion,Bats_increasing,Bats_decreasing,Bats_same,Contact,Past_eat_bat,Eat_bat,Past_catch_bats,Catch_bats,Prepare_eat,Past_mine_guano,Mine_guano,Leave_sick,Move_sick,Care_sick,Kill_sick,Give_sick,Eat_sick,Other_sick,Bat_harm_humans
-1,18-24,M,-,Methodist,a,,,No,No,No,Yes,No,No,No,No,,,,d,,f,,No
-2,30-39,M,12,Christian,,b,,Yes,Yes,No,Yes,No,No,Yes,No,,,c,,,,,Yes
-3,50-59,M,13+,NA,,,c,Yes,Yes,No,Yes,No,No,No,No,,b,,,,,,Yes
-4,50-59,M,12,Hindu,,b,,No,No,No,No,No,No,No,No,,,c,,,,,No
-5,30-39,F,12,Hindu,,,c,No,No,No,No,No,No,No,No,,,c,,,,,No
-6,30-39,M,10,NA,,b,,Yes,Yes,Yes,Yes,Yes,Yes,No,No,,b,,,,,,Yes
-7,40-49,F,12,Catholic,a,,,No,Yes,Yes,No - only males,No - only males,Yes,No,No,,,,,,,Not sure,No
-8,40-49,F,12,NA,a,,,No,Yes,Yes,Yes,Yes,No,No,No,,,,d,,f,,No
-9,40-49,F,12,Christian,a,,,No,No,No,No,No,Yes,No,No,,,,,,,,No
-10,50-59,M,11,Other Christian,a,,,No,No,Yes,Yes,No,Yes,No,No,,,c,,,,,No
-11,25-30,F,10,Catholic,,,c,No,No,Yes,No,No,No,No,No,,,c,,,,,No
-12,50-59,M,12,Catholic,,b,,No,No,No,Yes,No,No,No,No,,,,d,e,,,No
-13,30-39,M,12,Catholic,,b,,Yes,Yes,Yes,Yes,No,Yes,No,No,,,,,,f,,Yes
-14,30-39,M,10,Catholic,a,,,No,Yes,No,Yes,Yes,Yes,No,No,,,,d,,,,No
-15,18-24,F,13+,Catholic,,b,,No,Yes,No,Yes,No,Yes,No,No,,,,,,f,,No
-16,18-24,F,13+,Catholic,a,,,No,Yes,No,No,No,No,No,No,,,,,,f,,No
-17,30-39,F,8,Catholic,a,,,No,No,No,Yes,No,Yes,No,No,,,c,,,,,No
-18,30-39,M,13+,Seventh-day Adventist,,b,,Yes,Yes,No,Yes,No,Yes,No,No,a,,,,,f,,No
-19,30-39,F,13+,Catholic,a,,,No,No,No,Yes,No,Yes,No,No,a,,,,,,,No
-20,25-30,F,12,Catholic,a,,,No,Yes,No,No,No,No,No,No,a,,,,,,,No
-21,30-39,M,8,Catholic,a,,,Yes,Yes,Yes,Yes,Yes,Yes,No,No,a,,,,,,,Yes
-22,60+,M,13+,Catholic,a,,,No,Yes,No,Yes,No,Yes,No,a,,,,d,,,,Yes
-23,50-59,F,10,Anglican,,b,,No,No,No,No,No,No,No,No,,,c,,,,,No
-24,60+,M,,Catholic,a,,,Yes,Yes,Yes,Yes,No,Yes,No,No,,,,d,,f,,Yes
-25,40-49,F,10,Other Christian,a,b,,No,Yes,Yes,No,No,Yes,No,No,NA,,,,,,,Yes
-26,25-30,F,13+,Hindu,,b,,No,No,No,No,No,No,No,No,a,,c,,,,,NA
-27,40-49,M,13+,Methodist,,,c,Yes,Yes,No,Yes,No,Yes,No,No,,,c,,,,,Yes
-28,25-30,F,12,Methodist,a,,,No,No,No,No,No,No,No,No,,,c,,,,,No
-29,40-49,M,11,Christian,,b,,No,No,No,Yes,No,No,No,No,a,,,,,,,Yes
-30,30-39,F,13,Hindu,,,c,No,No,No,No,No,No,No,No,a,,,,,,,No
-31,40-49,M,12,Catholic,a,,,Yes,Yes,No,Yes,No,Yes,No,No,,,,d,,f,,Yes
-32,50-59,M,9,Catholic,,b,,No,Yes,No,Yes,No,Yes,No,No,a,,,d,,,,Yes
-33,30-39,F,12,Catholic,a,,,Yes,Yes,No,No,No,Yes,No,No,,,c,,,,,Yes
-34,30-39,F,11,Catholic,a,,,No,Yes,Will eat,No,No,Yes,Yes,Yes,a,,,,,,,No
-35,25-30,M,10,Catholic,a,,,No,Yes,No,Yes,No,Yes,No,No,,,,d,,,,Yes
-36,25-30,M,10,Catholic,,,c,No,No,Will eat,Yes,No,No,No,No,,,,d,,f,,No
-37,25-30,F,11,Catholic,a,,,No,Yes,Yes,Yes,Yes,Yes,No,No,,,,d,,f,,Yes
-38,30-39,F,11,Catholic,a,,,No,Yes,Yes,No,No,Yes,No,No,,,,d,,,,Yes
-39,60+,M,8,Catholic,a,,,Yes,Yes,No,Yes,No,Yes,No,No,,,,d,,f,,No
-40,30-39,F,12,Other Christian,a,b,,No,Yes,No,No,No,Yes,No,No,,,,d,,,,No
-41,60+,M,6,Methodist,,b,,No,Yes,No,Yes,No,Yes,No,No,,,c,,,,,Yes
-42,18-24,F,12,Catholic,a,,,No,Yes,No,No,No,No,No,No,,,,d,,,,Yes
-43,30-39,F,10,Catholic,,b,,No,Yes,No,No,No,Yes,No,No,,,c,,,,,Yes
-44,18-24,F,12,Methodist,a,,,No,Yes,No,No,No,No,No,No,,,,d,,f,,Yes
-45,18-24,M,10,Catholic,a,b,,No,Yes,No,Yes,No,Yes,No,No,,,,d,,f,,Yes
-46,25-30,M,11,Catholic,a,,,,,,,,,,,,,,,,,,
-47,60+,F,12,Catholic,a,,,Yes,Yes,No,Yes,No,Yes,No,No,,,c,,,,,Yes
-48,50-59,F,9,Other Christian,a,,,Yes,Yes,No,Yes,No,No,Yes,No,a,,,,,,,No
-49,50-59,M,9,Methodist,,,c,Yes,Yes,Yes,Yes,Yes,Yes,No,No,a,,,,,,,Yes
-50,18-24,F,12,Methodist,a,,,No,No,No,No,No,No,No,No,,,,d,e,,,Yes
-51,18-24,F,12,Methodist,a,,,No,No,No,No,No,Yes,No,No,,,c,,,,,No
-52,18-24,F,12,Methodist,a,,,No,No,No,Yes,No,No,No,No,a,,,,,,,Yes
-53,18-24,F,13,Seventh-day Adventist,a,,,Yes,Yes,No,No,No,Yes,No,No,,,,,e,,,Yes
-54,18-24,F,12,Methodist,a,,,No,No,No,No,No,No,No,No,,,,d,e,,,No
-55,30-39,F,12,Methodist,a,,,No,Yes,No,Yes,No,Yes,No,No,,,,d,,f,,Yes
-56,18-24,F,12,Methodist,a,b,,No,Yes,No,No,No,No,No,No,,,,d,e,,,Yes
-57,25-29,M,11,Seventh-day Adventist,a,b,,No,No,No,No,No,No,No,No,,,c,,,,,Yes
-58,30-39,M,9,Methodist,,,c,No,Yes,No,Yes,No,Yes,No,No,,,,d,,f,,No
-59,25-30,M,9,Methodist,a,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,,f,,Yes
-59,,,,,a,,,,Yes,No,Yes,,,,,,,,,,,,
-60,18-24,M,13,Methodist,a,,,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,a,,,,,,,Yes
-61,18-24,F,13,Catholic,a,,,No,Yes,Yes,No,No,Yes,No,No,,,,,,f,,Yes
-62,50-59,F,10,Methodist,NA,,,No,Yes,Yes,No,No,Yes,No,No,,,,,,f,,Yes
-63,60+,F,12,Methodist,,b,,Yes,Yes,Yes,No,No,Yes,Yes,Yes,,,,,,f,,No
-64,18-24,M,11,Methodist,,b,,Yes,Yes,No,Yes,No,Yes,Yes,Yes,,,,,,f,,Yes
-65,30-39,M,13,Christian,a,,,Yes,Yes,Yes,Yes,Yes,Yes,No,No,a,,,,,,,No
-66,30-39,M,10,Methodist,,b,,Yes,Yes,No,Yes,No,Yes,No,No,a,,,,,,,Yes
-67,40-49,M,10,Methodist,,b,,Yes,Yes,No,Yes,No,Yes,No,No,a,,,,,,,Yes
-,,,,,,,,,,,Yes,No,,,,,,,,,,,
-68,25-30,F,13+,Methodist,,b,,No,Yes,No,No,No,Yes,No,No,a,,,,,,,Yes
-,,,,,,,,,Yes,,No,No,,,,,,,,,,,
-69,50-59,M,10,Methodist,,b,,Yes,Yes,Yes,Yes,No,Yes,No,Yes,,,,d,,f,,No
-,,,,,,,,,Yes,No,Yes,No,Yes,,,,,,,,,,
-70,60+,M,3,Methodist,,b,,Yes,Yes,No,Yes,No,Yes,No,No,,,,d,,f,,No
-71,25-30,M,9,Seventh-day Adventist,,b,,Yes,Yes,No,Yes,No,No,Yes,No,,b,,,,,,Yes
-72,50-59,M,5,Methodist,,b,,Yes,Yes,Will eat,Yes,No,No,Yes,Yes,a,,,,,,,Yes
-73,25-30,F,12,Methodist,a,,,No,Yes,Will eat,Yes,No,Yes,No,No,a,,,,,,,Yes
-74,25-30,F,11,Christian,a,,,No,Yes,Yes,No,No,No,No,No,a,,,,,,,Yes
-75,30-39,F,8,Christian,a,,,No,Yes,No,Yes,No,Yes,No,No,a,,,,,,,No
-76,30-39,F,12,Christian,,,c,No,Yes,Will eat,No,No,Yes,No,No,,,,,,f,,No
-77,40-49,F,12,Methodist,,,c,No,Yes,No,No,No,Yes,No,No,,,c,,,,,No
-78,25-30,F,13+,Methodist,,b,,No,Yes,Yes,No,No,Yes,No,No,a,,,,,,,Yes
-79,60+,F,8,Methodist,a,,,Yes,Yes,Yes,Yes,No,Yes,No,No,a,,,,,,,Yes
-79,,,,,,,,,Yes,No,Yes,No,Yes,,,,,,,,,,
-80,40-49,M,9,Methodist,,b,,Yes,Yes,Yes,Yes,No,Yes,Yes,No,a,,,,,,,No
-80,,,,,a,,,,Yes,No,Yes,No,Yes,,,,,,,,,,
-81,25-30,M,13+,Christian,,b,,Yes,Yes,Yes,Yes,Yes,Yes,No,No,,,,,,f,,No
-82,60+,M,6,Christian,a,b,,No,Yes,Will eat,Yes,No,Yes,No,No,,,,,,,All are healthy - never see sick,No
-83,25-30,F,13+,Christian,,,c,No,Yes,Will eat,Yes,No,Yes,No,No,,,,d,,f,,No
-84,25-30,M,13+,Christian,,b,,Yes,Yes,Yes,Yes,Will go,Yes,No,No,,,,d,,f,,Yes
-85,40-49,F,10,Methodist,a,,,No,Yes,Will eat,Yes,No,Yes,No,No,a,,,,,,,Yes
-86,40-49,F,13,Methodist,a,,,No,Yes,Will eat,Yes,No,Yes,No,No,,,,,,,Not sure,No
-87,60+,M,8,Methodist,,b,,Yes,Yes,Will eat,Yes,Will go,Yes,No,No,,,,,,f,Don't know if it is sick,Yes
-88,18-24,M,13,Seventh-day Adventist,a,b,,Yes,Yes,Yes,Yes,Yes,Yes,No,No,,,,d,,f,,Yes
-89,50-59,M,10,Methodist,,b,,No,Yes,Yes,Yes,Yes,Yes,No,No,,,,,,f,,No
-90,40-49,F,12,Methodist,a,,,Yes,Yes,Yes,No,No,Yes,No,No,a,,,,,,,Yes
-91,50-59,F,12,Methodist,a,,,Yes,Yes,No,No,No,Yes,No,No,a,,,,,,,Yes
-92,60+,M,8,Methodist,a,,,Yes,Yes,Will eat,Yes,No,Yes,No,No,,,,d,,f,,Yes
-93,60+,F,8,Methodist,a,,,Yes,Yes,Will eat,No,No,Yes,No,No,,,,,,f,,Yes
-94,18-24,F,10,Methodist,a,,,No,Yes,No,No,No,Yes,No,No,a,,,,,,,Yes
-95,25-30,M,9,Methodist,a,,,Yes,Yes,Will eat,Yes,Will go,Yes,No,No,,,,,,f,,Yes
-96,50-59,M,8,Methodist,a,,,Yes,Yes,Yes,Yes,Yes,Yes,No,No,,,,,,f,,Yes
-97,60+,M,4,Methodist,a,,,Yes,Yes,Yes,Yes,Yes,Yes,No,No,,,,,,f,,Yes
-98,40-49,M,12,Methodist,a,,,Yes,Yes,Yes,Yes,Yes,Yes,No,No,,b,c,,,,,Yes
-99,50-59,M,13+,Catholic,,b,,Yes,Yes,Will eat,Yes,No,Yes,No,No,a,,,,,,,No
-99,,,,,,,c,,,,,,,,,,,,,,,,
-100,40-49,F,8,Catholic,a,,,Yes,Yes,Will eat,No,No,Yes,No,No,a,,,,,,,Yes
-101,18-24,M,11,Methodist,a,b,,No,Yes,Will eat,Yes,No,No,No,No,a,,,,,,,Yes
-102,40-49,M,10,Methodist,a,,,Yes,Yes,Will eat,Yes,Will go,Yes,No,No,,,,,,f,,Yes
-103,25-30,M,10,Catholic,a,,,Yes,Yes,Yes,Yes,Yes,No,No,No,,,,,,f,,Yes
-104,25-30,M,8,Methodist,,,c,Yes,Yes,Yes,Yes,Yes,No,No,No,,,,,,f,,Yes
-105,60+,M,8,Methodist,,,c,Yes,Yes,Will eat,Yes,No,Yes,No,No,a,,,,,f,,No
-106,18-24,M,13+,Christian,,b,,No,Yes,No,No,No,No,No,No,a,,,,,,,No
-107,30-39,M,13+,Christian,,b,,Yes,Yes,Will eat,Yes,No,Yes,No - seen grandfather do it - collect from around the pine trees where they would camp,No,a,,,,,,,No
-108,60+,M,8,Methodist,a,,,Yes,Yes,Will eat,Yes,No - maybe,Yes,No,No,,,,,,f,,Yes
-109,30-39,M,8,Methodist,a,,,Yes,Yes,Will eat,Yes,Will go,Yes,No,No,,,,,,f,,Yes
-110,40-49,M,8,Methodist,a,,,No,Yes,Will eat,Yes,No,Yes,No,No,,,,,,f,,No
-111,25-30,M,8,Methodist,a,,,No,Yes,Will eat,Yes,Will go,Yes,No,No,,,,,,f,,No
-112,18-24,M,12,Methodist,a,,,Yes,Yes,No,Yes,Yes,Yes,No,No,,,,,,f,,Yes
-113,30-39,M,10,Methodist,a,,,Yes,Yes,No,Yes,Yes,Yes,No,No,,,,,,f,,Yes
-114,30-39,F,12+,Methodist,,b,,Yes,Yes,Will eat,Yes,No,Yes,No,No,,,,d,,f,,Yes
-115,25-30,F,12,Methodist,,b,,Yes,Yes,Will eat,No,No,No,No,No,a,,,,,,,Yes
-116,18-24,F,13+,Methodist,,b,,No,No,No,No,No,No,No,No,a,,,,,,,No
-117,18-24,M,12,Methodist,a,,,No,Yes,Will eat,Yes,No,Yes,No,No,,,,d,,f,,No
-118,30-39,F,13+,Methodist,a,,,Yes,No,No,No,No,No,No,No,a,,,,,,,No
-119,30-39,F,12,Methodist,a,,,Yes,Yes,Will eat,No,No,Yes,No,No,a,,,,,f,,No
-120,25-30,F,13+,Methodist,a,,,No,Yes,No,No,No,Yes,No,No,a,,,,,,,No
-121,30-39,F,12,Pentecostal,a,,,No,Yes,No,Yes,No,Yes,No,No,a,,,,,,,Yes
-122,40-49,F,10,Methodist,a,,,Yes,Yes,Will eat,No,No,Yes,No,No,a,,,,,,,No
-123,60+,F,8,Pentecostal,a,,,Yes,No,No,No,No,Yes,No,No,a,,,,,,,No
-124,60+,M,,Other Christian,,,c,Yes,Yes,Will eat,Yes,No,Yes,No,No,,,,d,,f,,Yes
-125,30-39,F,12,Other Christian,a,,,No,No,Will eat,No,No,No,No,No,,,,d,,,,Yes
-126,18-24,M,7,Other Christian,a,,,Yes,No,No,Yes,Yes,No,No,No,,,,d,,,,Yes
-127,50-59,M,3,Methodist,a,,,Yes,Yes,No,Yes,No,Yes,No,No,,,,d,,f,,Yes
-128,60+,M,8,Other Christian,a,,,Yes,Yes,No,Yes,No,Yes,No,No,,,,d,,f,,Yes
-129,30-39,M,11,Methodist,a,,,Yes,Yes,Yes,Yes,Yes,No,No,No,a,,,,,,,Yes
-130,30-39,M,13+,Methodist,a,,,No,Yes,Will eat,No,No,Yes,No,No,,,c,,,,,No
-131,50-59,M,11,Methodist,a,,,Yes,Yes,Yes,Yes,Yes,Yes,No,No,,,,d,,,,No
-132,30-39,M,11,Methodist,,,c,No,Yes,Will eat,Yes,No,No,No,No,,,,d,,f,,Yes
-133,18-24,M,8,Other Christian,,,c,No,Yes,Will eat,Yes,Will go - same amount,Yes,No,No,,,,d,,f,,Yes
-134,60+,M,8,Methodist,a,,,Yes,Yes,Will eat,Yes,No,Yes,No,No,,,,,,f,,Yes
-135,60+,F,8,Methodist,a,,,Yes,Yes,Yes,No,No,Yes,No,No,,,,,,f,,Yes
-136,30-39,M,10,Methodist,a,,,No,Yes,Will eat,No,No,No,No,No,a,,,,,,,No
-137,30-39,F,9,Methodist,a,,,No,No,No,No - but will join for the party,No,Yes,No,No,,,,d,e,,,No
-138,30-39,F,10,Methodist,,,c,No,No,No,No,No,No,No,No,,,,d,e,,,Yes
-139,25-30,F,11,Methodist,,,c,No,No,No,No,No,No,No,No,,,,d,e,,,Yes
-140,60+,M,6,Methodist,,,c,Yes,Yes,No,Yes,No,Yes,No,No,,,,d,,,,Yes
-141,50-59,F,10,Methodist,a,,,Yes,Yes,Yes,No - but will join for the party,No - but will join for the party,Yes,No,No,a,,,,,,,Yes
-142,18-24,F,13+,Methodist,a,,,Yes,Yes,No,Yes,No - but will join for the party,Yes,No,No,a,,,,,,,Yes
-143,25-29,M,13+,Methodist,a,,,Yes,Yes,Will eat,Yes,Will go,No,No,No,,,c,,,,,No
-144,50-59,M,10,Methodist,a,b,,Yes,Yes,Will eat,Yes,Yes,Yes,No,No,,,,d,,f,,Yes
-145,40-49,M,10,Methodist,a,b,,Yes,Yes,Will eat,Yes,Yes,Yes,No,No,,,,d,,f,,Yes
-146,30-39,M,12,Methodist,a,,,Yes,Yes,Will eat,Yes,Will go - same amount,Yes,No,No,,,,d,,f,,Yes
-147,40-49,M,9,Methodist,a,,,Yes,Yes,Will eat,Yes,Will go - same amount,Yes,No,No,,,,d,,f,,Yes
-148,40-49,M,12,Methodist,,,c,Yes,Yes,Will eat,Yes,Will go - same amount,Yes,No,No,,,,,,,Not sure,Yes
-149,40-49,M,8,Catholic,,,c,Yes,No,No,No,No,No,No,No,a,,,,,,,Yes
-150,30-39,M,12,Methodist,,,c,Yes,Yes,Yes,Yes,Yes,Yes,No,No,,,,d,,f,,Yes
-151,18-24,M,12,Methodist,,,c,Yes,Yes,Will eat,Yes,No,Yes,No,No,,,,d,,f,,Yes
-152,40-49,M,7,Methodist,,,c,Yes,Yes,Will eat,Yes,Will go - same amount,Yes,No,No,,,,d,,f,,Yes
-153,18-24,M,12,Methodist,a,,,Yes,Yes,Will eat,Yes,No,Yes,No,No,,,,d,,f,,Yes
-154,50-59,M,11,Methodist,,b,,Yes,Yes,Will eat,Yes,No,Yes,No,No,,,,d,,f,,Yes
-155,30-39,F,11,Methodist,a,,,NA,No,No,No,No,No,No,No,,,c,,,,,No
-156,40-49,F,10,Methodist,,b,,No,Yes,Yes,Yes,Will go - same amount,Yes,No,No,a,,,,,,,No
-157,60+,F,6,Anglican,,b,,Yes,Yes,Yes,Yes,No,Yes,No,No,a,,,,,,,No
-158,40-49,F,11,Pentecostal,a,b,,No,Yes,Will eat,Yes,No,Yes,No,No,,,c,,,,,No
-159,60+,M,8,No religion,a,,,Yes,Yes,Yes,Yes,Yes,Yes,No,No,a,,,,,,,No
-160,60+,F,9,Methodist,a,,,No,Yes,Yes,No,No,No,No,No,a,,c,,,,,No
-161,40-49,F,11,Catholic,a,,,Yes,Yes,Yes,No,No,Yes,No,No,a,,,,,,,No
-162,50-59,F,7,Hindu,a,,,No,No,No,No,No,No,No,No,,,c,,,,,No
-163,18-24,M,11,Christian,a,,,No,Yes,Yes,Yes,No,No,No,No,,,c,,,,,No
-164,18-24,M,12,Catholic,,b,,Yes,Yes,No,No,No,No,No,No,a,,,,e,,,No
-165,30-39,F,13+,Christian,,b,,No,Yes,No,No,No,No,No,No,a,,,,,,,No
-166,25-29,M,12,Christian,,b,,No,No,No,Yes,No,No,No,No,a,,,,,,,No
-167,50-59,M,9,Seventh-day Adventist,a,,,No,Yes,Will eat,Yes,No,Yes,No,No,,,,d,,f,,No
-168,25-29,M,13+,Methodist,a,b,,No,Yes,No,Yes,No,No,No,No,,,c,,,,,No
-169,40-49,F,13+,Methodist,,b,,No,No,No,No,No,No,Yes,Yes,,,,d,,,Bury it,Yes
-170,30-39,F,11,Methodist,a,,,No,Yes,Will eat,No,No,Yes,No,No,a,,,,,,,No
-171,18-24,F,11,Methodist,a,,,No,Yes,No,No,No,No,No,No,a,,,,,,,No
-172,50-59,M,9,Hindu,,,c,No,No,No,No - but will join for the party,No,No,No,No,,,c,,,,,No
-173,50-59,F,12,Methodist,a,,,No,Yes,No,No,No,No,No,No,,,c,,,,,No
-174,40-49,F,12,Pentecostal,a,,,Yes,Yes,Yes,Yes,No,Yes,No,No,a,,,,,,,No
-175,18-24,F,13+,Seventh-day Adventist,,,c,No,No,No,No,No,No,No,No,a,,,,,,,Yes
-176,30-39,F,12,Other Christian,,,c,No,No,No,No,No,No,No,No,a,,,,,,,Yes
-177,40-49,M,10,Other Christian,a,,,Yes,Yes,Yes,Yes,No,Yes,No,No,a,,,,,,,No
-178,50-59,M,-,Methodist,a,,,Yes,Yes,Yes,Yes,No,Yes,- ,- ,a,,,,,,,No
-179,30-39,M,10,Christian,a,,,Yes,Yes,No,Yes,No,Yes,No,No,a,,,,,,,Yes
-180,60+,F,11,Christian,a,,,No,Yes,No,No - but will join for the party,No,Yes,No,No,,,c,d,,f,,No
-181,30-39,F,8,Christian,a,,,No,Yes,No,No,No,No,No,No,a,,,,,,,No
-182,50-59,F,8,Other Christian,a,,,Yes,Yes,Will eat,Yes,No,,Yes,Yes,,b,c,,,,,Yes
-182,,,,,a,,,,,Yes,Yes,Yes,Yes,,,,,,,,,,Yes
-183,60+,M,13,Methodist,a,,,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,a,,,,,f,,Yes
-183,,,,,,,,,,Yes,Yes,Yes,,,,,,,,,,,
-184,60+,M,8,Methodist,a,,,Yes,Yes,Yes,Yes,No - see notes,No,Yes,Yes,a,,,,,,,No
-184,,,,,,,,,,Yes,Yes,,,,,,,,,,,,
-185,25-29,M,10,Methodist,a,,,Yes,Yes,Yes,Yes,No,No,Yes,Yes,,b,,,,,,Yes
-185,,,,,,,,,,Yes,Yes,Yes,,,,,,,,,,,
-186,30-39,F,12,Other Christian,a,,,No,No,No,Yes,No,No,No,No,a,,,,,,,Yes
-187,30-39,M,13,Christian,a,,,Yes,Yes,No,Yes,No,Yes,No,No,,,c,,,,,Yes
-188,25-29,M,12,Christian,,b,,Yes,Yes,No,No,No,No,No,No,,,c,,,,,Yes
-189,40-49,M,13+,No religion,a,,,No,No,No,Yes,No,No,No,No,,,c,,,,,Yes
-190,30-39,M,13+,Christian,a,b,,Yes,Yes,No,Yes,No,Yes,No,No,a,,c,,,,,Yes
-191,30-39,F,10,Other Christian,a,,,Yes,Yes,No,No,No,Yes,No,No,a,,,,,,,No
-192,50-59,M,10,Methodist,a,,,Yes,Yes,Yes,Yes,No,Yes,No,No,,,,d,,f,,Yes
-193,25-29,F,13,Methodist,a,,,No,No,No,No,No,No,No,No,,,c,,,,,Yes
-194,40-49,F,13+,Christian,a,,,Yes,No,No,No,No,No,No,No,,,c,,,,,Yes
-195,25-29,F,13+,Methodist,,,c,Yes,Yes,No,No,No,Yes,No,No,a,,,,,,,No
-196,50-59,M,9,Methodist,a,,,Yes,Yes,Yes,Yes,Yes,No,No,No,,,,d,,f,,No
-197,40-49,M,12,Catholic,,b,,Yes,Yes,No,Yes,No,No,No,No,a,,,d,,,,Yes
-198,25-29,M,13+,Methodist,,b,,No,No,No,No,No,No,No,No,a,,,,,,,No
+1,18-24,M,NA,Methodist,1,0,0,No,No,No,Yes,No,No,No,No,0,0,0,1,0,1,NA,No
+2,30-39,M,12,Christian,0,1,0,Yes,Yes,No,Yes,No,No,Yes,No,0,0,1,0,0,0,NA,Yes
+3,50-59,M,13+,NA,0,0,1,Yes,Yes,No,Yes,No,No,No,No,0,1,0,0,0,0,NA,Yes
+4,50-59,M,12,Hindu,0,1,0,No,No,No,No,No,No,No,No,0,0,1,0,0,0,NA,No
+5,30-39,F,12,Hindu,0,0,1,No,No,No,No,No,No,No,No,0,0,1,0,0,0,NA,No
+6,30-39,M,10,NA,0,1,0,Yes,Yes,Yes,Yes,Yes,Yes,No,No,0,1,0,0,0,0,NA,Yes
+7,40-49,F,12,Catholic,1,0,0,No,Yes,Yes,No - only males,No - only males,Yes,No,No,0,0,0,0,0,0,Not sure,No
+8,40-49,F,12,NA,1,0,0,No,Yes,Yes,Yes,Yes,No,No,No,0,0,0,1,0,1,NA,No
+9,40-49,F,12,Christian,1,0,0,No,No,No,No,No,Yes,No,No,NA,NA,NA,NA,NA,NA,NA,No
+10,50-59,M,11,Other Christian,1,0,0,No,No,Yes,Yes,No,Yes,No,No,0,0,1,0,0,0,NA,No
+11,25-30,F,10,Catholic,0,0,1,No,No,Yes,No,No,No,No,No,0,0,1,0,0,0,NA,No
+12,50-59,M,12,Catholic,0,1,0,No,No,No,Yes,No,No,No,No,0,0,0,1,1,0,NA,No
+13,30-39,M,12,Catholic,0,1,0,Yes,Yes,Yes,Yes,No,Yes,No,No,0,0,0,0,0,1,NA,Yes
+14,30-39,M,10,Catholic,1,0,0,No,Yes,No,Yes,Yes,Yes,No,No,0,0,0,1,0,0,NA,No
+15,18-24,F,13+,Catholic,0,1,0,No,Yes,No,Yes,No,Yes,No,No,0,0,0,0,0,1,NA,No
+16,18-24,F,13+,Catholic,1,0,0,No,Yes,No,No,No,No,No,No,0,0,0,0,0,1,NA,No
+17,30-39,F,8,Catholic,1,0,0,No,No,No,Yes,No,Yes,No,No,0,0,1,0,0,0,NA,No
+18,30-39,M,13+,Seventh-day Adventist,0,1,0,Yes,Yes,No,Yes,No,Yes,No,No,1,0,0,0,0,1,NA,No
+19,30-39,F,13+,Catholic,1,0,0,No,No,No,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,No
+20,25-30,F,12,Catholic,1,0,0,No,Yes,No,No,No,No,No,No,1,0,0,0,0,0,NA,No
+21,30-39,M,8,Catholic,1,0,0,Yes,Yes,Yes,Yes,Yes,Yes,No,No,1,0,0,0,0,0,NA,Yes
+22,60+,M,13+,Catholic,1,0,0,No,Yes,No,Yes,No,Yes,No,a,0,0,0,1,0,0,NA,Yes
+23,50-59,F,10,Anglican,0,1,0,No,No,No,No,No,No,No,No,0,0,1,0,0,0,NA,No
+24,60+,M,NA,Catholic,1,0,0,Yes,Yes,Yes,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+25,40-49,F,10,Other Christian,1,1,0,No,Yes,Yes,No,No,Yes,No,No,NA,NA,NA,NA,NA,NA,NA,Yes
+26,25-30,F,13+,Hindu,0,1,0,No,No,No,No,No,No,No,No,1,0,1,0,0,0,NA,NA
+27,40-49,M,13+,Methodist,0,0,1,Yes,Yes,No,Yes,No,Yes,No,No,0,0,1,0,0,0,NA,Yes
+28,25-30,F,12,Methodist,1,0,0,No,No,No,No,No,No,No,No,0,0,1,0,0,0,NA,No
+29,40-49,M,11,Christian,0,1,0,No,No,No,Yes,No,No,No,No,1,0,0,0,0,0,NA,Yes
+30,30-39,F,13,Hindu,0,0,1,No,No,No,No,No,No,No,No,1,0,0,0,0,0,NA,No
+31,40-49,M,12,Catholic,1,0,0,Yes,Yes,No,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+32,50-59,M,9,Catholic,0,1,0,No,Yes,No,Yes,No,Yes,No,No,1,0,0,1,0,0,NA,Yes
+33,30-39,F,12,Catholic,1,0,0,Yes,Yes,No,No,No,Yes,No,No,0,0,1,0,0,0,NA,Yes
+34,30-39,F,11,Catholic,1,0,0,No,Yes,Will eat,No,No,Yes,Yes,Yes,1,0,0,0,0,0,NA,No
+35,25-30,M,10,Catholic,1,0,0,No,Yes,No,Yes,No,Yes,No,No,0,0,0,1,0,0,NA,Yes
+36,25-30,M,10,Catholic,0,0,1,No,No,Will eat,Yes,No,No,No,No,0,0,0,1,0,1,NA,No
+37,25-30,F,11,Catholic,1,0,0,No,Yes,Yes,Yes,Yes,Yes,No,No,0,0,0,1,0,1,NA,Yes
+38,30-39,F,11,Catholic,1,0,0,No,Yes,Yes,No,No,Yes,No,No,0,0,0,1,0,0,NA,Yes
+39,60+,M,8,Catholic,1,0,0,Yes,Yes,No,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,No
+40,30-39,F,12,Other Christian,1,1,0,No,Yes,No,No,No,Yes,No,No,0,0,0,1,0,0,NA,No
+41,60+,M,6,Methodist,0,1,0,No,Yes,No,Yes,No,Yes,No,No,0,0,1,0,0,0,NA,Yes
+42,18-24,F,12,Catholic,1,0,0,No,Yes,No,No,No,No,No,No,0,0,0,1,0,0,NA,Yes
+43,30-39,F,10,Catholic,0,1,0,No,Yes,No,No,No,Yes,No,No,0,0,1,0,0,0,NA,Yes
+44,18-24,F,12,Methodist,1,0,0,No,Yes,No,No,No,No,No,No,0,0,0,1,0,1,NA,Yes
+45,18-24,M,10,Catholic,1,1,0,No,Yes,No,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+46,25-30,M,11,Catholic,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+47,60+,F,12,Catholic,1,0,0,Yes,Yes,No,Yes,No,Yes,No,No,0,0,1,0,0,0,NA,Yes
+48,50-59,F,9,Other Christian,1,0,0,Yes,Yes,No,Yes,No,No,Yes,No,1,0,0,0,0,0,NA,No
+49,50-59,M,9,Methodist,0,0,1,Yes,Yes,Yes,Yes,Yes,Yes,No,No,1,0,0,0,0,0,NA,Yes
+50,18-24,F,12,Methodist,1,0,0,No,No,No,No,No,No,No,No,0,0,0,1,1,0,NA,Yes
+51,18-24,F,12,Methodist,1,0,0,No,No,No,No,No,Yes,No,No,0,0,1,0,0,0,NA,No
+52,18-24,F,12,Methodist,1,0,0,No,No,No,Yes,No,No,No,No,1,0,0,0,0,0,NA,Yes
+53,18-24,F,13,Seventh-day Adventist,1,0,0,Yes,Yes,No,No,No,Yes,No,No,0,0,0,0,1,0,NA,Yes
+54,18-24,F,12,Methodist,1,0,0,No,No,No,No,No,No,No,No,0,0,0,1,1,0,NA,No
+55,30-39,F,12,Methodist,1,0,0,No,Yes,No,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+56,18-24,F,12,Methodist,1,1,0,No,Yes,No,No,No,No,No,No,0,0,0,1,1,0,NA,Yes
+57,25-29,M,11,Seventh-day Adventist,1,1,0,No,No,No,No,No,No,No,No,0,0,1,0,0,0,NA,Yes
+58,30-39,M,9,Methodist,0,0,1,No,Yes,No,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,No
+59,25-30,M,9,Methodist,1,0,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,0,0,0,0,0,1,NA,Yes
+59,NA,NA,NA,NA,1,0,0,NA,Yes,No,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+60,18-24,M,13,Methodist,1,0,0,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,1,0,0,0,0,0,NA,Yes
+61,18-24,F,13,Catholic,1,0,0,No,Yes,Yes,No,No,Yes,No,No,0,0,0,0,0,1,NA,Yes
+62,50-59,F,10,Methodist,NA,NA,NA,No,Yes,Yes,No,No,Yes,No,No,0,0,0,0,0,1,NA,Yes
+63,60+,F,12,Methodist,0,1,0,Yes,Yes,Yes,No,No,Yes,Yes,Yes,0,0,0,0,0,1,NA,No
+64,18-24,M,11,Methodist,0,1,0,Yes,Yes,No,Yes,No,Yes,Yes,Yes,0,0,0,0,0,1,NA,Yes
+65,30-39,M,13,Christian,1,0,0,Yes,Yes,Yes,Yes,Yes,Yes,No,No,1,0,0,0,0,0,NA,No
+66,30-39,M,10,Methodist,0,1,0,Yes,Yes,No,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+67,40-49,M,10,Methodist,0,1,0,Yes,Yes,No,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Yes,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+68,25-30,F,13+,Methodist,0,1,0,No,Yes,No,No,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+NA,NA,NA,NA,NA,NA,NA,NA,NA,Yes,NA,No,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+69,50-59,M,10,Methodist,0,1,0,Yes,Yes,Yes,Yes,No,Yes,No,Yes,0,0,0,1,0,1,NA,No
+NA,NA,NA,NA,NA,NA,NA,NA,NA,Yes,No,Yes,No,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70,60+,M,3,Methodist,0,1,0,Yes,Yes,No,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,No
+71,25-30,M,9,Seventh-day Adventist,0,1,0,Yes,Yes,No,Yes,No,No,Yes,No,0,1,0,0,0,0,NA,Yes
+72,50-59,M,5,Methodist,0,1,0,Yes,Yes,Will eat,Yes,No,No,Yes,Yes,1,0,0,0,0,0,NA,Yes
+73,25-30,F,12,Methodist,1,0,0,No,Yes,Will eat,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+74,25-30,F,11,Christian,1,0,0,No,Yes,Yes,No,No,No,No,No,1,0,0,0,0,0,NA,Yes
+75,30-39,F,8,Christian,1,0,0,No,Yes,No,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,No
+76,30-39,F,12,Christian,0,0,1,No,Yes,Will eat,No,No,Yes,No,No,0,0,0,0,0,1,NA,No
+77,40-49,F,12,Methodist,0,0,1,No,Yes,No,No,No,Yes,No,No,0,0,1,0,0,0,NA,No
+78,25-30,F,13+,Methodist,0,1,0,No,Yes,Yes,No,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+79,60+,F,8,Methodist,1,0,0,Yes,Yes,Yes,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+79,NA,NA,NA,NA,NA,NA,NA,NA,Yes,No,Yes,No,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+80,40-49,M,9,Methodist,0,1,0,Yes,Yes,Yes,Yes,No,Yes,Yes,No,1,0,0,0,0,0,NA,No
+80,NA,NA,NA,NA,1,0,0,NA,Yes,No,Yes,No,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+81,25-30,M,13+,Christian,0,1,0,Yes,Yes,Yes,Yes,Yes,Yes,No,No,0,0,0,0,0,1,NA,No
+82,60+,M,6,Christian,1,1,0,No,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,0,0,0,All are healthy - never see sick,No
+83,25-30,F,13+,Christian,0,0,1,No,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,No
+84,25-30,M,13+,Christian,0,1,0,Yes,Yes,Yes,Yes,Will go,Yes,No,No,0,0,0,1,0,1,NA,Yes
+85,40-49,F,10,Methodist,1,0,0,No,Yes,Will eat,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+86,40-49,F,13,Methodist,1,0,0,No,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,0,0,0,Not sure,No
+87,60+,M,8,Methodist,0,1,0,Yes,Yes,Will eat,Yes,Will go,Yes,No,No,0,0,0,0,0,1,Don't know if it is sick,Yes
+88,18-24,M,13,Seventh-day Adventist,1,1,0,Yes,Yes,Yes,Yes,Yes,Yes,No,No,0,0,0,1,0,1,NA,Yes
+89,50-59,M,10,Methodist,0,1,0,No,Yes,Yes,Yes,Yes,Yes,No,No,0,0,0,0,0,1,NA,No
+90,40-49,F,12,Methodist,1,0,0,Yes,Yes,Yes,No,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+91,50-59,F,12,Methodist,1,0,0,Yes,Yes,No,No,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+92,60+,M,8,Methodist,1,0,0,Yes,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+93,60+,F,8,Methodist,1,0,0,Yes,Yes,Will eat,No,No,Yes,No,No,0,0,0,0,0,1,NA,Yes
+94,18-24,F,10,Methodist,1,0,0,No,Yes,No,No,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+95,25-30,M,9,Methodist,1,0,0,Yes,Yes,Will eat,Yes,Will go,Yes,No,No,0,0,0,0,0,1,NA,Yes
+96,50-59,M,8,Methodist,1,0,0,Yes,Yes,Yes,Yes,Yes,Yes,No,No,0,0,0,0,0,1,NA,Yes
+97,60+,M,4,Methodist,1,0,0,Yes,Yes,Yes,Yes,Yes,Yes,No,No,0,0,0,0,0,1,NA,Yes
+98,40-49,M,12,Methodist,1,0,0,Yes,Yes,Yes,Yes,Yes,Yes,No,No,0,1,1,0,0,0,NA,Yes
+99,50-59,M,13+,Catholic,0,1,0,Yes,Yes,Will eat,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,No
+99,NA,NA,NA,NA,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+100,40-49,F,8,Catholic,1,0,0,Yes,Yes,Will eat,No,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+101,18-24,M,11,Methodist,1,1,0,No,Yes,Will eat,Yes,No,No,No,No,1,0,0,0,0,0,NA,Yes
+102,40-49,M,10,Methodist,1,0,0,Yes,Yes,Will eat,Yes,Will go,Yes,No,No,0,0,0,0,0,1,NA,Yes
+103,25-30,M,10,Catholic,1,0,0,Yes,Yes,Yes,Yes,Yes,No,No,No,0,0,0,0,0,1,NA,Yes
+104,25-30,M,8,Methodist,0,0,1,Yes,Yes,Yes,Yes,Yes,No,No,No,0,0,0,0,0,1,NA,Yes
+105,60+,M,8,Methodist,0,0,1,Yes,Yes,Will eat,Yes,No,Yes,No,No,1,0,0,0,0,1,NA,No
+106,18-24,M,13+,Christian,0,1,0,No,Yes,No,No,No,No,No,No,1,0,0,0,0,0,NA,No
+107,30-39,M,13+,Christian,0,1,0,Yes,Yes,Will eat,Yes,No,Yes,No - seen grandfather do it - collect from around the pine trees where they would camp,No,1,0,0,0,0,0,NA,No
+108,60+,M,8,Methodist,1,0,0,Yes,Yes,Will eat,Yes,No - maybe,Yes,No,No,0,0,0,0,0,1,NA,Yes
+109,30-39,M,8,Methodist,1,0,0,Yes,Yes,Will eat,Yes,Will go,Yes,No,No,0,0,0,0,0,1,NA,Yes
+110,40-49,M,8,Methodist,1,0,0,No,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,0,0,1,NA,No
+111,25-30,M,8,Methodist,1,0,0,No,Yes,Will eat,Yes,Will go,Yes,No,No,0,0,0,0,0,1,NA,No
+112,18-24,M,12,Methodist,1,0,0,Yes,Yes,No,Yes,Yes,Yes,No,No,0,0,0,0,0,1,NA,Yes
+113,30-39,M,10,Methodist,1,0,0,Yes,Yes,No,Yes,Yes,Yes,No,No,0,0,0,0,0,1,NA,Yes
+114,30-39,F,12+,Methodist,0,1,0,Yes,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+115,25-30,F,12,Methodist,0,1,0,Yes,Yes,Will eat,No,No,No,No,No,1,0,0,0,0,0,NA,Yes
+116,18-24,F,13+,Methodist,0,1,0,No,No,No,No,No,No,No,No,1,0,0,0,0,0,NA,No
+117,18-24,M,12,Methodist,1,0,0,No,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,No
+118,30-39,F,13+,Methodist,1,0,0,Yes,No,No,No,No,No,No,No,1,0,0,0,0,0,NA,No
+119,30-39,F,12,Methodist,1,0,0,Yes,Yes,Will eat,No,No,Yes,No,No,1,0,0,0,0,1,NA,No
+120,25-30,F,13+,Methodist,1,0,0,No,Yes,No,No,No,Yes,No,No,1,0,0,0,0,0,NA,No
+121,30-39,F,12,Pentecostal,1,0,0,No,Yes,No,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+122,40-49,F,10,Methodist,1,0,0,Yes,Yes,Will eat,No,No,Yes,No,No,1,0,0,0,0,0,NA,No
+123,60+,F,8,Pentecostal,1,0,0,Yes,No,No,No,No,Yes,No,No,1,0,0,0,0,0,NA,No
+124,60+,M,NA,Other Christian,0,0,1,Yes,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+125,30-39,F,12,Other Christian,1,0,0,No,No,Will eat,No,No,No,No,No,0,0,0,1,0,0,NA,Yes
+126,18-24,M,7,Other Christian,1,0,0,Yes,No,No,Yes,Yes,No,No,No,0,0,0,1,0,0,NA,Yes
+127,50-59,M,3,Methodist,1,0,0,Yes,Yes,No,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+128,60+,M,8,Other Christian,1,0,0,Yes,Yes,No,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+129,30-39,M,11,Methodist,1,0,0,Yes,Yes,Yes,Yes,Yes,No,No,No,1,0,0,0,0,0,NA,Yes
+130,30-39,M,13+,Methodist,1,0,0,No,Yes,Will eat,No,No,Yes,No,No,0,0,1,0,0,0,NA,No
+131,50-59,M,11,Methodist,1,0,0,Yes,Yes,Yes,Yes,Yes,Yes,No,No,0,0,0,1,0,0,NA,No
+132,30-39,M,11,Methodist,0,0,1,No,Yes,Will eat,Yes,No,No,No,No,0,0,0,1,0,1,NA,Yes
+133,18-24,M,8,Other Christian,0,0,1,No,Yes,Will eat,Yes,Will go - same amount,Yes,No,No,0,0,0,1,0,1,NA,Yes
+134,60+,M,8,Methodist,1,0,0,Yes,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,0,0,1,NA,Yes
+135,60+,F,8,Methodist,1,0,0,Yes,Yes,Yes,No,No,Yes,No,No,0,0,0,0,0,1,NA,Yes
+136,30-39,M,10,Methodist,1,0,0,No,Yes,Will eat,No,No,No,No,No,1,0,0,0,0,0,NA,No
+137,30-39,F,9,Methodist,1,0,0,No,No,No,No - but will join for the party,No,Yes,No,No,0,0,0,1,1,0,NA,No
+138,30-39,F,10,Methodist,0,0,1,No,No,No,No,No,No,No,No,0,0,0,1,1,0,NA,Yes
+139,25-30,F,11,Methodist,0,0,1,No,No,No,No,No,No,No,No,0,0,0,1,1,0,NA,Yes
+140,60+,M,6,Methodist,0,0,1,Yes,Yes,No,Yes,No,Yes,No,No,0,0,0,1,0,0,NA,Yes
+141,50-59,F,10,Methodist,1,0,0,Yes,Yes,Yes,No - but will join for the party,No - but will join for the party,Yes,No,No,1,0,0,0,0,0,NA,Yes
+142,18-24,F,13+,Methodist,1,0,0,Yes,Yes,No,Yes,No - but will join for the party,Yes,No,No,1,0,0,0,0,0,NA,Yes
+143,25-29,M,13+,Methodist,1,0,0,Yes,Yes,Will eat,Yes,Will go,No,No,No,0,0,1,0,0,0,NA,No
+144,50-59,M,10,Methodist,1,1,0,Yes,Yes,Will eat,Yes,Yes,Yes,No,No,0,0,0,1,0,1,NA,Yes
+145,40-49,M,10,Methodist,1,1,0,Yes,Yes,Will eat,Yes,Yes,Yes,No,No,0,0,0,1,0,1,NA,Yes
+146,30-39,M,12,Methodist,1,0,0,Yes,Yes,Will eat,Yes,Will go - same amount,Yes,No,No,0,0,0,1,0,1,NA,Yes
+147,40-49,M,9,Methodist,1,0,0,Yes,Yes,Will eat,Yes,Will go - same amount,Yes,No,No,0,0,0,1,0,1,NA,Yes
+148,40-49,M,12,Methodist,0,0,1,Yes,Yes,Will eat,Yes,Will go - same amount,Yes,No,No,0,0,0,0,0,0,Not sure,Yes
+149,40-49,M,8,Catholic,0,0,1,Yes,No,No,No,No,No,No,No,1,0,0,0,0,0,NA,Yes
+150,30-39,M,12,Methodist,0,0,1,Yes,Yes,Yes,Yes,Yes,Yes,No,No,0,0,0,1,0,1,NA,Yes
+151,18-24,M,12,Methodist,0,0,1,Yes,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+152,40-49,M,7,Methodist,0,0,1,Yes,Yes,Will eat,Yes,Will go - same amount,Yes,No,No,0,0,0,1,0,1,NA,Yes
+153,18-24,M,12,Methodist,1,0,0,Yes,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+154,50-59,M,11,Methodist,0,1,0,Yes,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+155,30-39,F,11,Methodist,1,0,0,NA,No,No,No,No,No,No,No,0,0,1,0,0,0,NA,No
+156,40-49,F,10,Methodist,0,1,0,No,Yes,Yes,Yes,Will go - same amount,Yes,No,No,1,0,0,0,0,0,NA,No
+157,60+,F,6,Anglican,0,1,0,Yes,Yes,Yes,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,No
+158,40-49,F,11,Pentecostal,1,1,0,No,Yes,Will eat,Yes,No,Yes,No,No,0,0,1,0,0,0,NA,No
+159,60+,M,8,No religion,1,0,0,Yes,Yes,Yes,Yes,Yes,Yes,No,No,1,0,0,0,0,0,NA,No
+160,60+,F,9,Methodist,1,0,0,No,Yes,Yes,No,No,No,No,No,1,0,1,0,0,0,NA,No
+161,40-49,F,11,Catholic,1,0,0,Yes,Yes,Yes,No,No,Yes,No,No,1,0,0,0,0,0,NA,No
+162,50-59,F,7,Hindu,1,0,0,No,No,No,No,No,No,No,No,0,0,1,0,0,0,NA,No
+163,18-24,M,11,Christian,1,0,0,No,Yes,Yes,Yes,No,No,No,No,0,0,1,0,0,0,NA,No
+164,18-24,M,12,Catholic,0,1,0,Yes,Yes,No,No,No,No,No,No,1,0,0,0,1,0,NA,No
+165,30-39,F,13+,Christian,0,1,0,No,Yes,No,No,No,No,No,No,1,0,0,0,0,0,NA,No
+166,25-29,M,12,Christian,0,1,0,No,No,No,Yes,No,No,No,No,1,0,0,0,0,0,NA,No
+167,50-59,M,9,Seventh-day Adventist,1,0,0,No,Yes,Will eat,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,No
+168,25-29,M,13+,Methodist,1,1,0,No,Yes,No,Yes,No,No,No,No,0,0,1,0,0,0,NA,No
+169,40-49,F,13+,Methodist,0,1,0,No,No,No,No,No,No,Yes,Yes,0,0,0,1,0,0,Bury it,Yes
+170,30-39,F,11,Methodist,1,0,0,No,Yes,Will eat,No,No,Yes,No,No,1,0,0,0,0,0,NA,No
+171,18-24,F,11,Methodist,1,0,0,No,Yes,No,No,No,No,No,No,1,0,0,0,0,0,NA,No
+172,50-59,M,9,Hindu,0,0,1,No,No,No,No - but will join for the party,No,No,No,No,0,0,1,0,0,0,NA,No
+173,50-59,F,12,Methodist,1,0,0,No,Yes,No,No,No,No,No,No,0,0,1,0,0,0,NA,No
+174,40-49,F,12,Pentecostal,1,0,0,Yes,Yes,Yes,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,No
+175,18-24,F,13+,Seventh-day Adventist,0,0,1,No,No,No,No,No,No,No,No,1,0,0,0,0,0,NA,Yes
+176,30-39,F,12,Other Christian,0,0,1,No,No,No,No,No,No,No,No,1,0,0,0,0,0,NA,Yes
+177,40-49,M,10,Other Christian,1,0,0,Yes,Yes,Yes,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,No
+178,50-59,M,NA,Methodist,1,0,0,Yes,Yes,Yes,Yes,No,Yes,NA,NA,1,0,0,0,0,0,NA,No
+179,30-39,M,10,Christian,1,0,0,Yes,Yes,No,Yes,No,Yes,No,No,1,0,0,0,0,0,NA,Yes
+180,60+,F,11,Christian,1,0,0,No,Yes,No,No - but will join for the party,No,Yes,No,No,0,0,1,1,0,1,NA,No
+181,30-39,F,8,Christian,1,0,0,No,Yes,No,No,No,No,No,No,1,0,0,0,0,0,NA,No
+182,50-59,F,8,Other Christian,1,0,0,Yes,Yes,Will eat,Yes,No,NA,Yes,Yes,0,1,1,0,0,0,NA,Yes
+182,NA,NA,NA,NA,1,0,0,NA,NA,Yes,Yes,Yes,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,Yes
+183,60+,M,13,Methodist,1,0,0,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,1,0,0,0,0,1,NA,Yes
+183,NA,NA,NA,NA,NA,NA,NA,NA,NA,Yes,Yes,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+184,60+,M,8,Methodist,1,0,0,Yes,Yes,Yes,Yes,No - see notes,No,Yes,Yes,1,0,0,0,0,0,NA,No
+184,NA,NA,NA,NA,NA,NA,NA,NA,NA,Yes,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+185,25-29,M,10,Methodist,1,0,0,Yes,Yes,Yes,Yes,No,No,Yes,Yes,0,1,0,0,0,0,NA,Yes
+185,NA,NA,NA,NA,NA,NA,NA,NA,NA,Yes,Yes,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+186,30-39,F,12,Other Christian,1,0,0,No,No,No,Yes,No,No,No,No,1,0,0,0,0,0,NA,Yes
+187,30-39,M,13,Christian,1,0,0,Yes,Yes,No,Yes,No,Yes,No,No,0,0,1,0,0,0,NA,Yes
+188,25-29,M,12,Christian,0,1,0,Yes,Yes,No,No,No,No,No,No,0,0,1,0,0,0,NA,Yes
+189,40-49,M,13+,No religion,1,0,0,No,No,No,Yes,No,No,No,No,0,0,1,0,0,0,NA,Yes
+190,30-39,M,13+,Christian,1,1,0,Yes,Yes,No,Yes,No,Yes,No,No,1,0,1,0,0,0,NA,Yes
+191,30-39,F,10,Other Christian,1,0,0,Yes,Yes,No,No,No,Yes,No,No,1,0,0,0,0,0,NA,No
+192,50-59,M,10,Methodist,1,0,0,Yes,Yes,Yes,Yes,No,Yes,No,No,0,0,0,1,0,1,NA,Yes
+193,25-29,F,13,Methodist,1,0,0,No,No,No,No,No,No,No,No,0,0,1,0,0,0,NA,Yes
+194,40-49,F,13+,Christian,1,0,0,Yes,No,No,No,No,No,No,No,0,0,1,0,0,0,NA,Yes
+195,25-29,F,13+,Methodist,0,0,1,Yes,Yes,No,No,No,Yes,No,No,1,0,0,0,0,0,NA,No
+196,50-59,M,9,Methodist,1,0,0,Yes,Yes,Yes,Yes,Yes,No,No,No,0,0,0,1,0,1,NA,No
+197,40-49,M,12,Catholic,0,1,0,Yes,Yes,No,Yes,No,No,No,No,1,0,0,1,0,0,NA,Yes
+198,25-29,M,13+,Methodist,0,1,0,No,No,No,No,No,No,No,No,1,0,0,0,0,0,NA,No

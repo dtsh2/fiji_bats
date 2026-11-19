@@ -114,86 +114,38 @@ if ("Religion" %in% names(data)) {
 ## ---- Plot all columns (base plot) ----
 # for (i in 1:ncol(data)) plot(data[, i])
 
-## ---- Make combined sick column ----
-sick_cols <- intersect(
-  c("Leave_sick", "Move_sick", "Care_sick", "Kill_sick", "Give_sick", "Eat_sick"),
-  names(data)
-)
+## ---- Combine the recorded options for descriptive plots ----
+option_labels <- function(df, labels, other = NULL) {
+  vapply(seq_len(nrow(df)), function(i) {
+    flags <- unlist(df[i, names(labels)], use.names = FALSE)
+    if (!all(is.na(flags) | flags %in% c(0, 1))) {
+      stop("Expected 0/1 option columns. For the original CSV, see the README.")
+    }
+    answers <- unname(labels[which(flags == 1)])
+    if (!is.null(other) && !is.na(df[[other]][i])) {
+      answers <- c(answers, df[[other]][i])
+    }
+    if (length(answers)) paste(answers, collapse = " / ") else NA_character_
+  }, character(1))
+}
 
-if (length(sick_cols) > 0 && !"sick" %in% names(data)) {
-  data <- data %>%
-    tidyr::unite("sick", dplyr::all_of(sick_cols), sep = ",", remove = FALSE) %>%
-    mutate(
-      sick = stringr::str_replace_all(sick, "NA", ""),
-      sick = stringr::str_replace_all(sick, ",", ""),
-      sick = stringr::str_squish(sick)
-    )
-  
+sick_labels <- c(Leave_sick = "Leave", Move_sick = "Move", Care_sick = "Care",
+                 Kill_sick = "Kill", Give_sick = "Give", Eat_sick = "Eat")
+if (all(c(names(sick_labels), "Other_sick") %in% names(data))) {
+  data$sick <- option_labels(data, sick_labels, other = "Other_sick")
   ggplot(data, aes(sick)) + geom_bar()
 }
 
-## ---- Make combined population trend column ----
-trend_cols <- intersect(c("Bats_increasing", "Bats_decreasing", "Bats_same"), names(data))
-
-if (length(trend_cols) > 0 && !"trend" %in% names(data)) {
-  data <- data %>%
-    tidyr::unite("trend", dplyr::all_of(trend_cols), sep = ",", remove = FALSE) %>%
-    mutate(
-      trend = stringr::str_replace_all(trend, "NA", ""),
-      trend = stringr::str_replace_all(trend, ",", ""),
-      trend = stringr::str_squish(trend)
-    )
-  
-  ggplot(data, aes(trend)) + geom_bar()
-  
-  data <- data %>%
-    mutate(
-      trend = str_replace(trend, "c", "None"),
-      trend = str_replace(trend, "a", "Increasing"),
-      trend = str_replace(trend, "b", "Decreasing"),
-      trend = str_replace(trend, "IncreasingDecreasing", "Inc/Dec"),
-      trend = str_replace(trend, "^$", "NA")
-    )
-  
+trend_labels <- c(Bats_increasing = "Increasing", Bats_decreasing = "Decreasing",
+                  Bats_same = "Same")
+if (all(names(trend_labels) %in% names(data))) {
+  data$trend <- option_labels(data, trend_labels)
   ggplot(data, aes(trend, col = trend, fill = trend)) +
     geom_bar(width = 0.4) +
     theme(legend.position = "none", text = element_text(size = 18)) +
     ylab("Count") + xlab("") +
     scale_x_discrete(guide = guide_axis(n.dodge = 2))
   ggsave("trend.png", width = 20, height = 10, units = "cm")
-}
-
-## ---- Bat eating by age/gender ----
-if (all(c("Eat_bat", "Past_eat_bat", "Age", "Gender") %in% names(data))) {
-  df2 <- data %>%
-    group_by(Eat_bat, Past_eat_bat, Age, Gender) %>%
-    tally(name = "n")
-  
-  to_plot2 <- df2 %>%
-    pivot_longer(cols = c(Eat_bat, Past_eat_bat), names_to = "Eat", values_to = "Response")
-  
-  to_plot2$Eat <- factor(to_plot2$Eat, levels = c("Past_eat_bat", "Eat_bat"), labels = c("Past", "Current"))
-  
-  ggplot(data = subset(to_plot2, !is.na(Age)), aes(x = Age, y = n, fill = Response)) +
-    geom_bar(position = "stack", stat = "identity") +
-    theme_bw() + facet_wrap(~Eat) +
-    theme(text = element_text(size = 16), legend.title = element_blank()) +
-    ylab("Count")
-  ggsave("eating_age_current.png", width = 20, height = 10, units = "cm")
-  
-  ggplot(data = subset(to_plot2, !is.na(Age)), aes(x = Age, y = n, fill = Response)) +
-    geom_bar(position = "stack", stat = "identity") +
-    theme_bw() + facet_wrap(~Gender) +
-    theme(text = element_text(size = 16), legend.title = element_blank()) +
-    ylab("Count")
-  ggsave("eating_gender_current.png", width = 20, height = 10, units = "cm")
-  
-  ggplot(data = subset(to_plot2, !is.na(Age)), aes(x = Age, y = n, fill = Response)) +
-    geom_bar(position = "stack", stat = "identity", width = 0.6) +
-    theme_bw() + facet_wrap(~Gender + Eat) +
-    theme(text = element_text(size = 16), legend.title = element_blank()) +
-    ylab("Count")
-  ggsave("eating.png", width = 20, height = 15, units = "cm")
 }
 
 ## ---- Age plot ----
@@ -203,20 +155,6 @@ if ("Age" %in% names(data)) {
     theme(legend.position = "none", text = element_text(size = 16)) +
     ylab("Count") + xlab("Age")
   ggsave("age_grey.png", width = 20, height = 10, units = "cm")
-}
-
-## ---- Contact data by age and gender ----
-if (all(c("Contact", "Age", "Gender") %in% names(data))) {
-  df3 <- data %>%
-    group_by(Contact, Age, Gender) %>%
-    tally(name = "n")
-  
-  ggplot(data = subset(df3, !is.na(Age) & !is.na(Gender)), aes(x = Age, y = n, fill = Contact)) +
-    geom_bar(position = "stack", stat = "identity") +
-    theme_bw() + facet_wrap(~Gender) +
-    ylab("Count") +
-    theme(text = element_text(size = 16), legend.title = element_blank())
-  ggsave("contacts_gender.png", width = 20, height = 10, units = "cm")
 }
 
 ## ---- Education plots ----
@@ -243,16 +181,6 @@ if ("Education_yrs" %in% names(data)) {
     group_by(Education_yrs, Age, Gender) %>%
     tally(name = "n")
   
-  colourCount <- length(unique(data$Education_yrs))
-  getPalette <- colorRampPalette(brewer.pal(9, "RdYlGn"))
-  
-  ggplot(data = subset(df4, !is.na(Age) & !is.na(Gender))) +
-    geom_bar(aes(x = Age, y = n, fill = Education_yrs), stat = "identity") +
-    theme_bw() + facet_wrap(~Gender) +
-    ylab("Count") +
-    guides(fill = guide_legend(ncol = 2, title = "Years")) +
-    scale_fill_manual(values = getPalette(colourCount), na.value = "grey")
-  ggsave("edu_gender_raw.png", width = 20, height = 10, units = "cm")
   
   ggplot(data = subset(df4, !is.na(Age) & !is.na(Gender))) +
     geom_bar(aes(x = Age, y = n, fill = Education_yrs), stat = "identity", position = "fill") +
@@ -286,10 +214,9 @@ if (all(c("Person.ID.number", "Past_eat_bat", "Eat_bat") %in% names(data))) {
 if (all(c("Person.ID.number", "Past_catch_bats", "Catch_bats") %in% names(data))) {
   data_catch <- reshape2::melt(data, id.vars = "Person.ID.number", measure.vars = c("Past_catch_bats", "Catch_bats"), na.rm = TRUE)
   
-  data_catch$value <- sub("No .*", "", data_catch$value)
-  data_catch$value <- sub("Will go -.*", "", data_catch$value)
-  data_catch[data_catch == ""] <- NA
-  
+  data_catch$value <- sub("^No -.*", "No", data_catch$value)
+  data_catch$value <- sub("^Will go -.*", "Will go", data_catch$value)
+
   levels(data_catch$variable) <- c("Past", "Current")
   colnames(data_catch)[3] <- "Response"
   
@@ -305,11 +232,9 @@ if (all(c("Person.ID.number", "Past_mine_guano", "Mine_guano") %in% names(data))
   data_guano <- reshape2::melt(data, id.vars = "Person.ID.number", measure.vars = c("Past_mine_guano", "Mine_guano"))
   levels(data_guano$variable) <- c("Past_mine_guano", "Mine_guano")
   
-  data_guano$value <- sub("No .*", "", data_guano$value)
-  data_guano[data_guano == ""] <- NA
-  data_guano[data_guano == "- "] <- NA
-  data_guano[data_guano == "a"] <- "No"
-  
+  data_guano$value <- sub("^No -.*", "No", data_guano$value)
+  data_guano$value[data_guano$value %in% "a"] <- "No"
+
   levels(data_guano$variable) <- c("Past", "Current")
   colnames(data_guano)[3] <- "Response"
   
@@ -399,6 +324,10 @@ if ("Prepare_eat" %in% names(data)) {
 ##  export model summaries
 ## =========================================================
 broom::tidy(logit_contact_harm, conf.int = TRUE, exponentiate = TRUE) %>% write.csv("logit_contact_harm_OR.csv", row.names = FALSE)
+
+## ---- Publication figures ----
+# Reload the CSV in a separate environment to retain "Will eat" for plotting.
+source("Fiji_Bat_Human_RSOS_figures.R", local = new.env())
 
 ## ---- done ----
 message("Finished running Fiji bat–human analysis script (with harm01 in regressions).")
